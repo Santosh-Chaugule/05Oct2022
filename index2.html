@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>child-parent Relationship</title>
+    <style>
+      #p {
+        width: 400px;
+        height: 400px;
+        background-color: red;
+        position: relative;
+        overflow: hidden;
+      }
+      #c1 {
+        width: 100px;
+        height: 100px;
+        background-color: blueviolet;
+      }
+      #c2 {
+        width: 100px;
+        height: 100px;
+        background-color: brown;
+      }
+
+      #c3 {
+        width: 100px;
+        height: 100px;
+        background-color: green;
+      }
+      #c4 {
+        width: 100px;
+        height: 100px;
+        background-color: darkblue;
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+      }
+      .c {
+        width: 100px;
+        height: 100px;
+        background-color: yellow;
+        border: 2px dashed red;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="p">
+      <div id="c1">Child1</div>
+      <div id="c2">Child2</div>
+      <div id="c3">Child3</div>
+      <div id="c4">Child4</div>
+      <div class="c"></div>
+      <div class="c"></div>
+      <div class="c"></div>
+      <div class="c"></div>
+    </div>
+  </body>
+</html>
